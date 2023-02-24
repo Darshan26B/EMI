@@ -63,16 +63,31 @@
 
     </Button>
 
+
     <TextView
-        android:id="@+id/FinalAns"
+        android:layout_marginTop="20dp"
+        android:id="@+id/Emi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:textSize="20dp"
         android:gravity="center"
-        android:textSize="25dp"
-        android:textStyle="bold|italic">
+        android:textStyle="bold"/>
 
-    </TextView>
+    <TextView
+        android:id="@+id/TotalAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/TotalInterest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
 
 
 </LinearLayout>
